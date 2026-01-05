@@ -10,12 +10,12 @@ const Header = () => {
   return (
     <section className='bg-[#7E33E0] w-full'>
         <Container>
-            <div className="grid xl:grid-cols-2 xs:py-3 xl:py-3">
+            <div className="grid 2xs:py-3 xs:py-3 xl:grid-cols-2 xl:py-3">
 
               <div className="xl:flex items-center xl:gap-6 cursor-pointer">
 
                 <div className="">
-                    <div className="flex items-center xs:gap-3 xl:gap-x-2 xs:justify-center">
+                    <div className="flex items-center 2xs:gap-3 2xs:justify-center xs:gap-3 xs:justify-center xl:gap-x-2">
                       <div className="">
                         <i><MdOutlineMail  className='text-white xs:text-[24px] xl:text-[16px] mt-1'/></i>
                       </div>
@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
 
                   <div className="">
-                     <div className="flex xs:justify-center items-center xs:gap-1 xs:my-2 xl:my-0 xl:gap-x-2">
+                     <div className="flex 2xs:justify-center 2xs:my-2 xs:justify-center items-center xs:gap-1 xs:my-2 xl:my-0 xl:gap-x-2">
                       <div className="">
                         <i><FiPhone  className='text-white xs:text-[24px] xl:text-[16px] mt-1'/></i>
                       </div>
@@ -38,50 +38,50 @@ const Header = () => {
               </div>
 
 
-                      <div className="flex flex-wrap cursor-pointer xs:justify-between xs:gap-x-0 xs:px-1 xl:px-0 xl:justify-start xl:gap-x-6">
+                      <div className="flex flex-wrap cursor-pointer 2xs:justify-between 2xs:gap-x-0 2xs:px-1 xs:justify-between xs:gap-x-0 xs:px-1 xl:px-0 xl:justify-start xl:gap-x-6">
 
-                        <div className="flex items-center xs:gap-x-0 xl:gap-x-1">
+                        <div className="flex items-center 2xs:gap-x-0 xs:gap-x-0 xl:gap-x-1">
                           <div className="">
-                            <h2 className='text-white xs:text-[20px] xl:text-[16px] font-josefin'>English</h2>
+                            <h2 className='text-white 2xs:text-[18px] xs:text-[20px] xl:text-[16px] font-josefin'>English</h2>
                           </div>
-                          <div className="xs:opacity-0 xl:opacity-111">
+                          <div className="2xs:hidden xs:hidden xl:block">
                             <i><IoIosArrowDown  className='text-white xl:text-[18px] xl:mt-1'/></i>
                           </div>
                         </div>
 
                          <div className="flex items-center xl:gap-x-1">
                           <div className="">
-                            <h2 className='text-white xs:text-[20px] xl:text-[16px] font-josefin'>USD</h2>
+                            <h2 className='text-white 2xs:text-[18px] xs:text-[20px] xl:text-[16px] font-josefin'>USD</h2>
                           </div>
-                          <div className="xs:opacity-0 xl:opacity-111">
+                          <div className="2xs:hidden xs:hidden xl:block">
                             <i><IoIosArrowDown  className='text-white text-[18px] mt-1'/></i>
                           </div>
                         </div>
 
                          <div className="flex items-center xs:gap-x-0 xl:gap-x-1">
-                          <div className="xs:opacity-0 xl:opacity-111">
+                          <div className="2xs:hidden xs:hidden xl:block">
                             <h2 className='text-white text-[16px] font-josefin'>Login</h2>
                           </div>
                           <div className="">
-                            <i><CiUser  className='text-white xs:text-[24px] xl:text-[18px]'/></i>
+                            <i><CiUser  className='text-white 2xs:text-[20px] xs:text-[24px] xl:text-[18px]'/></i>
                           </div>
                         </div>
 
                          <div className="flex items-center xs:gap-x-0 xl:gap-x-1">
-                          <div className="xs:opacity-0 xl:opacity-111">
+                          <div className="2xs:hidden xs:hidden xl:block">
                             <h2 className='text-white text-[16px] font-josefin'>Wishlist</h2>
                           </div>
                           <div className="">
-                            <i><CiHeart  className='text-white xs:text-[24px] xl:text-[18px]'/></i>
+                            <i><CiHeart  className='text-white 2xs:text-[20px] xs:text-[24px] xl:text-[18px]'/></i>
                           </div>
                         </div>
 
                          <div className="flex items-center xs:gap-x-0 xl:gap-x-1">
-                          <div className="xs:opacity-0 xl:opacity-111">
+                          <div className="2xs:hidden xs:hidden xl:block">
                             <h2 className='text-white text-[16px] font-josefin'>Cart</h2>
                           </div>
                           <div className="">
-                            <i><IoCartOutline  className='text-white xs:text-[24px] xl:text-[18px]'/></i>
+                            <i><IoCartOutline  className='text-white 2xs:text-[20px] xs:text-[24px] xl:text-[18px]'/></i>
                           </div>
                         </div>
                       </div>

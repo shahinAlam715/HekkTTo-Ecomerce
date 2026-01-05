@@ -4,5 +4,6 @@
 @theme {
     --font-josefin: "Josefin Sans", sans-serif;
     --font-Lato: "Lato", sans-serif;
+    --breakpoint-2xs: 300px;
     --breakpoint-xs: 375px;
 }
