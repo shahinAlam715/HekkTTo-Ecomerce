@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Container from './Container'
-import hekto from "../assets/hekto.png"
+import hekto from "../assets/Hekto.png"
 import { IoIosArrowDown, IoIosSearch } from 'react-icons/io'
 import { FaBarsStaggered } from 'react-icons/fa6'
 import { RxCross2 } from 'react-icons/rx'
