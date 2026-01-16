@@ -45,31 +45,28 @@ const NewArrival = () => {
     prevArrow: <SamplePrevArrow />,
 
      responsive: [
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 374,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+    {
+      breakpoint: 1024, // tablet
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
       }
-    ]
+    },
+    {
+      breakpoint: 768, // mobile
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480, // small mobile
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
   };
     
   return (
