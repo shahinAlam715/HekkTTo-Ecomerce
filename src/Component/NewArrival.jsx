@@ -44,26 +44,23 @@ const NewArrival = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
 
-     responsive: [
+    responsive: [
     {
-      breakpoint: 1024, // tablet
+      breakpoint: 1199,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToShow: 3
       }
     },
     {
-      breakpoint: 768, // mobile
+      breakpoint: 1023,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 2
       }
     },
     {
-      breakpoint: 480, // small mobile
+      breakpoint: 374, // ✅ 300–374
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 1
       }
     }
   ]
