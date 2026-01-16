@@ -34,37 +34,41 @@ const NewArrival = () => {
     let info = useContext(Apidata)
     console.log(info);
 
-    const settings = {
-    dots: false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+  const settings = {
+  dots: false,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  initialSlide: 0,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
 
-    responsive: [
+  responsive: [
     {
       breakpoint: 1199,
       settings: {
-        slidesToShow: 3
-      }
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      },
     },
     {
       breakpoint: 1023,
       settings: {
-        slidesToShow: 2
-      }
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
     },
     {
-      breakpoint: 374, // ✅ 300–374
+      breakpoint: 480,
       settings: {
-        slidesToShow: 1
-      }
-    }
-  ]
-  };
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
+
     
   return (
    <>
@@ -77,7 +81,7 @@ const NewArrival = () => {
 
                   <Slider {...settings}>
                   {info.map((item)=>(
-                  <div className="group relative max-w-[270px] bg-[#F6F7FB] shadow-[0_0_15px_rgba(0,0,0,0.15)]">
+                  <div className="group relative w-full max-w-[270px] bg-[#F6F7FB] shadow-[0_0_15px_rgba(0,0,0,0.15)]">
                       <div className="absolute top-0 left-0 flex gap-x-2 my-3 ml-2 opacity-0 group-hover:opacity-100">
                         <div className="h-[40px] w-[40px] bg-[#EEEFFB] hover:bg-[#00009D] flex items-center justify-center rounded-full">
                           <i><FaShoppingCart  className='text-[#1389FF] hover:text-[#ffff] text-[18px]'/></i>
