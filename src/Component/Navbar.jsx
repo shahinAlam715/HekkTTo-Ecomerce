@@ -15,7 +15,7 @@ const Navbar = () => {
 
 
   return (
-    <section>
+    <section className='py-2'>
         <Container className="">
              <div className="grid relative 2xs:grid-cols-4 2xs:justify-between 2xs:items-center 2xs:px-2 xl:grid-cols-4 py-2  xl:justify-between xl:px-2 items-center">
 

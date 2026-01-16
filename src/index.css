@@ -7,3 +7,12 @@
     --breakpoint-2xs: 300px;
     --breakpoint-xs: 375px;
 }
+
+
+.slick-slide {
+  padding: 0 15px;   /* left right gap */
+}
+
+.slick-list {
+  margin: 0 10px;  /* extra overflow fix */
+}
